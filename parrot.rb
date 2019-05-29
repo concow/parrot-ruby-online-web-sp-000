@@ -3,5 +3,5 @@
 
 def parrot(phrase = "Squawk!")        #default argument here controls return value when argument not called upon
   puts "#{phrase}"                    #return value of #puts is nil
-    return phrases
+    return phrase
 end
